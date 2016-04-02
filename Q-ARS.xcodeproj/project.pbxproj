@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CC10661CAFFCB3008AD2B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CC10651CAFFCB3008AD2B3 /* main.m */; };
+		00CC10691CAFFCB3008AD2B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CC10681CAFFCB3008AD2B3 /* AppDelegate.m */; };
+		00CC106C1CAFFCB3008AD2B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CC106B1CAFFCB3008AD2B3 /* ViewController.m */; };
+		00CC106F1CAFFCB3008AD2B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CC106D1CAFFCB3008AD2B3 /* Main.storyboard */; };
+		00CC10711CAFFCB3008AD2B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CC10701CAFFCB3008AD2B3 /* Assets.xcassets */; };
+		00CC10741CAFFCB3008AD2B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CC10721CAFFCB3008AD2B3 /* LaunchScreen.storyboard */; };
+		00CC107F1CAFFCB3008AD2B3 /* Q_ARSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CC107E1CAFFCB3008AD2B3 /* Q_ARSTests.m */; };
+		00CC108A1CAFFCB3008AD2B3 /* Q_ARSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CC10891CAFFCB3008AD2B3 /* Q_ARSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00CC107B1CAFFCB3008AD2B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00CC10591CAFFCB3008AD2B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00CC10601CAFFCB3008AD2B3;
+			remoteInfo = "Q-ARS";
+		};
+		00CC10861CAFFCB3008AD2B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00CC10591CAFFCB3008AD2B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00CC10601CAFFCB3008AD2B3;
+			remoteInfo = "Q-ARS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CC10611CAFFCB3008AD2B3 /* Q-ARS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Q-ARS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CC10651CAFFCB3008AD2B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00CC10671CAFFCB3008AD2B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00CC10681CAFFCB3008AD2B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00CC106A1CAFFCB3008AD2B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00CC106B1CAFFCB3008AD2B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00CC106E1CAFFCB3008AD2B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00CC10701CAFFCB3008AD2B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00CC10731CAFFCB3008AD2B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00CC10751CAFFCB3008AD2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CC107A1CAFFCB3008AD2B3 /* Q-ARSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Q-ARSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CC107E1CAFFCB3008AD2B3 /* Q_ARSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q_ARSTests.m; sourceTree = "<group>"; };
+		00CC10801CAFFCB3008AD2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CC10851CAFFCB3008AD2B3 /* Q-ARSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Q-ARSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CC10891CAFFCB3008AD2B3 /* Q_ARSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q_ARSUITests.m; sourceTree = "<group>"; };
+		00CC108B1CAFFCB3008AD2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00CC105E1CAFFCB3008AD2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC10771CAFFCB3008AD2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC10821CAFFCB3008AD2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CC10581CAFFCB3008AD2B3 = {
+			isa = PBXGroup;
+			children = (
+				00CC10631CAFFCB3008AD2B3 /* Q-ARS */,
+				00CC107D1CAFFCB3008AD2B3 /* Q-ARSTests */,
+				00CC10881CAFFCB3008AD2B3 /* Q-ARSUITests */,
+				00CC10621CAFFCB3008AD2B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00CC10621CAFFCB3008AD2B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00CC10611CAFFCB3008AD2B3 /* Q-ARS.app */,
+				00CC107A1CAFFCB3008AD2B3 /* Q-ARSTests.xctest */,
+				00CC10851CAFFCB3008AD2B3 /* Q-ARSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00CC10631CAFFCB3008AD2B3 /* Q-ARS */ = {
+			isa = PBXGroup;
+			children = (
+				00CC10671CAFFCB3008AD2B3 /* AppDelegate.h */,
+				00CC10681CAFFCB3008AD2B3 /* AppDelegate.m */,
+				00CC106A1CAFFCB3008AD2B3 /* ViewController.h */,
+				00CC106B1CAFFCB3008AD2B3 /* ViewController.m */,
+				00CC106D1CAFFCB3008AD2B3 /* Main.storyboard */,
+				00CC10701CAFFCB3008AD2B3 /* Assets.xcassets */,
+				00CC10721CAFFCB3008AD2B3 /* LaunchScreen.storyboard */,
+				00CC10751CAFFCB3008AD2B3 /* Info.plist */,
+				00CC10641CAFFCB3008AD2B3 /* Supporting Files */,
+			);
+			path = "Q-ARS";
+			sourceTree = "<group>";
+		};
+		00CC10641CAFFCB3008AD2B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00CC10651CAFFCB3008AD2B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00CC107D1CAFFCB3008AD2B3 /* Q-ARSTests */ = {
+			isa = PBXGroup;
+			children = (
+				00CC107E1CAFFCB3008AD2B3 /* Q_ARSTests.m */,
+				00CC10801CAFFCB3008AD2B3 /* Info.plist */,
+			);
+			path = "Q-ARSTests";
+			sourceTree = "<group>";
+		};
+		00CC10881CAFFCB3008AD2B3 /* Q-ARSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00CC10891CAFFCB3008AD2B3 /* Q_ARSUITests.m */,
+				00CC108B1CAFFCB3008AD2B3 /* Info.plist */,
+			);
+			path = "Q-ARSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00CC10601CAFFCB3008AD2B3 /* Q-ARS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CC108E1CAFFCB3008AD2B3 /* Build configuration list for PBXNativeTarget "Q-ARS" */;
+			buildPhases = (
+				00CC105D1CAFFCB3008AD2B3 /* Sources */,
+				00CC105E1CAFFCB3008AD2B3 /* Frameworks */,
+				00CC105F1CAFFCB3008AD2B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Q-ARS";
+			productName = "Q-ARS";
+			productReference = 00CC10611CAFFCB3008AD2B3 /* Q-ARS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00CC10791CAFFCB3008AD2B3 /* Q-ARSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CC10911CAFFCB3008AD2B3 /* Build configuration list for PBXNativeTarget "Q-ARSTests" */;
+			buildPhases = (
+				00CC10761CAFFCB3008AD2B3 /* Sources */,
+				00CC10771CAFFCB3008AD2B3 /* Frameworks */,
+				00CC10781CAFFCB3008AD2B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00CC107C1CAFFCB3008AD2B3 /* PBXTargetDependency */,
+			);
+			name = "Q-ARSTests";
+			productName = "Q-ARSTests";
+			productReference = 00CC107A1CAFFCB3008AD2B3 /* Q-ARSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00CC10841CAFFCB3008AD2B3 /* Q-ARSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CC10941CAFFCB3008AD2B3 /* Build configuration list for PBXNativeTarget "Q-ARSUITests" */;
+			buildPhases = (
+				00CC10811CAFFCB3008AD2B3 /* Sources */,
+				00CC10821CAFFCB3008AD2B3 /* Frameworks */,
+				00CC10831CAFFCB3008AD2B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00CC10871CAFFCB3008AD2B3 /* PBXTargetDependency */,
+			);
+			name = "Q-ARSUITests";
+			productName = "Q-ARSUITests";
+			productReference = 00CC10851CAFFCB3008AD2B3 /* Q-ARSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00CC10591CAFFCB3008AD2B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FrankLindstrom;
+				TargetAttributes = {
+					00CC10601CAFFCB3008AD2B3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					00CC10791CAFFCB3008AD2B3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 00CC10601CAFFCB3008AD2B3;
+					};
+					00CC10841CAFFCB3008AD2B3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 00CC10601CAFFCB3008AD2B3;
+					};
+				};
+			};
+			buildConfigurationList = 00CC105C1CAFFCB3008AD2B3 /* Build configuration list for PBXProject "Q-ARS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00CC10581CAFFCB3008AD2B3;
+			productRefGroup = 00CC10621CAFFCB3008AD2B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00CC10601CAFFCB3008AD2B3 /* Q-ARS */,
+				00CC10791CAFFCB3008AD2B3 /* Q-ARSTests */,
+				00CC10841CAFFCB3008AD2B3 /* Q-ARSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00CC105F1CAFFCB3008AD2B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CC10741CAFFCB3008AD2B3 /* LaunchScreen.storyboard in Resources */,
+				00CC10711CAFFCB3008AD2B3 /* Assets.xcassets in Resources */,
+				00CC106F1CAFFCB3008AD2B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC10781CAFFCB3008AD2B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC10831CAFFCB3008AD2B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CC105D1CAFFCB3008AD2B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CC106C1CAFFCB3008AD2B3 /* ViewController.m in Sources */,
+				00CC10691CAFFCB3008AD2B3 /* AppDelegate.m in Sources */,
+				00CC10661CAFFCB3008AD2B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC10761CAFFCB3008AD2B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CC107F1CAFFCB3008AD2B3 /* Q_ARSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CC10811CAFFCB3008AD2B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CC108A1CAFFCB3008AD2B3 /* Q_ARSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00CC107C1CAFFCB3008AD2B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00CC10601CAFFCB3008AD2B3 /* Q-ARS */;
+			targetProxy = 00CC107B1CAFFCB3008AD2B3 /* PBXContainerItemProxy */;
+		};
+		00CC10871CAFFCB3008AD2B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00CC10601CAFFCB3008AD2B3 /* Q-ARS */;
+			targetProxy = 00CC10861CAFFCB3008AD2B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00CC106D1CAFFCB3008AD2B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00CC106E1CAFFCB3008AD2B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00CC10721CAFFCB3008AD2B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00CC10731CAFFCB3008AD2B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00CC108C1CAFFCB3008AD2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00CC108D1CAFFCB3008AD2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00CC108F1CAFFCB3008AD2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Q-ARS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frank.Q-ARS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00CC10901CAFFCB3008AD2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Q-ARS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frank.Q-ARS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00CC10921CAFFCB3008AD2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Q-ARSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frank.Q-ARSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Q-ARS.app/Q-ARS";
+			};
+			name = Debug;
+		};
+		00CC10931CAFFCB3008AD2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Q-ARSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frank.Q-ARSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Q-ARS.app/Q-ARS";
+			};
+			name = Release;
+		};
+		00CC10951CAFFCB3008AD2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Q-ARSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frank.Q-ARSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Q-ARS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		00CC10961CAFFCB3008AD2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Q-ARSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frank.Q-ARSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Q-ARS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00CC105C1CAFFCB3008AD2B3 /* Build configuration list for PBXProject "Q-ARS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CC108C1CAFFCB3008AD2B3 /* Debug */,
+				00CC108D1CAFFCB3008AD2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00CC108E1CAFFCB3008AD2B3 /* Build configuration list for PBXNativeTarget "Q-ARS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CC108F1CAFFCB3008AD2B3 /* Debug */,
+				00CC10901CAFFCB3008AD2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00CC10911CAFFCB3008AD2B3 /* Build configuration list for PBXNativeTarget "Q-ARSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CC10921CAFFCB3008AD2B3 /* Debug */,
+				00CC10931CAFFCB3008AD2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00CC10941CAFFCB3008AD2B3 /* Build configuration list for PBXNativeTarget "Q-ARSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CC10951CAFFCB3008AD2B3 /* Debug */,
+				00CC10961CAFFCB3008AD2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00CC10591CAFFCB3008AD2B3 /* Project object */;
+}
