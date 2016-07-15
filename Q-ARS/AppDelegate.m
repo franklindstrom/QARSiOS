@@ -9,7 +9,10 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+@end
 
+@interface UIDevice ()
+- (void) setOrientation:(UIInterfaceOrientation)orientation;
 @end
 
 @implementation AppDelegate
@@ -17,7 +20,35 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // switch storyboard via device screen size
+    UIStoryboard *storyboard;
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        storyboard = [UIStoryboard storyboardWithName:@"Pad" bundle:nil];
+    } else {
+        storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    }
+    
+    [[UIDevice currentDevice] setOrientation:UIInterfaceOrientationPortrait];
+    // show the storyboard
+    self.window.rootViewController = [storyboard instantiateInitialViewController];
+    [self.window makeKeyAndVisible];
+    
+    // initialize Facebook SDK
+    [[FBSDKApplicationDelegate sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+    
+    // initialize Twitter SDK
+    [[Twitter sharedInstance] startWithConsumerKey: @"DAzVn6pgHg9m7my1o5zaznlIx" consumerSecret: @"kQOF5TlD5xzzKOgY4XeFjLtI4rs7Kw2CuzWnmx0meSqmFhc1Jk"];
+    [Fabric with: @[[Twitter class]]];
+    
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    [[FBSDKApplicationDelegate sharedInstance] application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
+    
+    [[GIDSignIn sharedInstance] handleURL: url sourceApplication: sourceApplication annotation: annotation];
+    // Add any custom logic here.
+    return true;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
